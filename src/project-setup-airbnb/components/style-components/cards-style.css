@@ -1,0 +1,248 @@
+.cards {
+    border-radius: 5%;
+    /* overflow: hidden; */
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 280px;
+    /* background-color: salmon; */
+    margin: 20px;
+    
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, .3);
+    transition: .3s;
+}
+/* CARDS HOVER */
+.cards:hover {
+    min-width: 230px;
+    max-width: 230px;
+    min-height: 300px;
+}
+
+.cards:hover .country-name{
+    font-size: 35px;
+    /* margin: 0 6px; */
+    
+}
+
+.cards:hover .country-flag {
+    position: relative;
+    /* width: 108%; */
+    transform: scale(1.1);
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, .3);
+}
+
+.country-flag {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, .3);
+    transition: .6s;
+}
+
+.country-name {
+    margin: 0 8px;
+    margin-top: 5px;
+    font-size: 28px;
+    color: rgb(29, 29, 29);
+    transition: .3s;
+}
+
+.country-code {
+    margin: 0 8px;
+    color: rgb(113, 113, 113);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cards {
+    margin-top: 20px;
+    padding: 0px 20px;
+    width: 264px;
+
+    position: relative;
+}
+
+.available {
+    display: block;
+    padding: 5px 8px;
+    width: fit-content;
+    position: absolute;
+
+    margin: 0;  
+
+    top: 10px;
+    left: 30px;
+    font-weight: bold;
+
+    border: 0px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.person-swimmer {
+    height: 300px;
+    margin: 0;
+}
+
+.rating {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.star, .rating-point {
+    margin: 0px 3px;
+}
+
+.rating-from {
+    margin: 0;
+    color: rgb(28, 28, 28);
+}
+
+.price {
+    font-weight: 600;
+    margin: 0;
+}
+
+.from {
+    margin: 0;
+}
+
+.title {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+ */

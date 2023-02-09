@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Century gothic;
+    width: 100%;
+    /* background-color: red; */
+}
+
+/* * {
+    margin: 0;
+} */
+
+.airbnb {
+    padding: 0px 0px 20px 0px;
+    /* overflow-x: auto; */
+    overflow: hidden;
+}
+
+.cards-container {
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: row; /* ADD */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 0px;
+    overflow-x: auto;
+}

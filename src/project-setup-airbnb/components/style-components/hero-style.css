@@ -1,0 +1,24 @@
+.hero {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rebeccapurple; */
+}
+
+.hero img {
+    margin: auto;
+}
+
+.hero h1 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 86px;
+}
+
+.hero p {
+    margin: 0;
+    margin-top:25px;
+    font-size: 37px;
+    /* background-color: rebeccapurple; */
+    width: 750px;
+}
